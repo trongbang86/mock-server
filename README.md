@@ -9,3 +9,7 @@ This is a template for mocking server api responses
 5. Edit `serverPort` in app.js to your needs
 6. Add/Edit the routes in app.js
 7. The server automatically refreshes
+
+# Test API
+1. nodemon app.js
+2. curl http://localhost:9001/api/path?flag=res1
